@@ -49,14 +49,14 @@ def CompareHash(hash1,hash2):
         
 
 hash1=CalcImageHash('im.jpg')
-hash2=CalcImageHash('im.jpg')
+hash2=CalcImageHash('imcs.jpg')
 print(hash1)
 print(hash2)
 print(CompareHash(hash1, hash2))
 
 
 im1 = Image.open("im.jpg")
-im2 = Image.open("im.jpg")
+im2 = Image.open("imcs.jpg")
 
 diff = ImageChops.difference(im1, im2)
 
