@@ -6,10 +6,6 @@ from PIL import Image, ImageChops
 
 from requests.api import request
 
- 
-#change the IP address below according to the
-#IP shown in the Serial monitor of Arduino code
-
 
 url='http://192.168.14.40/cam-hi.jpg'
 
